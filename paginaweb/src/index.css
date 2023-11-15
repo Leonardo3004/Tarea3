@@ -1,0 +1,337 @@
+.dato-venta {
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 150px;
+  margin: 20px;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 25px;
+  font-size: 16px;
+  border: 2px solid #434242;
+}
+.table-container {
+  
+  border-radius: 50px; /* Add rounded corners */
+  max-height: 500px; /* Establece la altura máxima deseada */
+  overflow: auto;    /* Agrega una barra de desplazamiento cuando el contenido excede la altura máxima */
+}
+.table-container2 {
+  width: 50%;
+  
+  border-radius: 50px; /* Add rounded corners */
+  max-height: 425px; /* Establece la altura máxima deseada */
+  overflow: auto;    /* Agrega una barra de desplazamiento cuando el contenido excede la altura máxima */
+}
+table {
+  
+  border-radius: 30px; /* Add rounded corners */
+  width: 100%;       /* Asegura que la tabla ocupe el ancho completo del contenedor */
+  border-collapse: collapse; /* Mejora el aspecto de las celdas de la tabla */
+}
+.boton-venta{
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height:50px ;
+  background-color: #001F3F; /* Set the background color to green */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  border: 2px solid #001F3F;
+  border-radius: 30px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+
+} 
+.button-container{
+  width: 1300px;
+  position: relative; /* Establece el posicionamiento absoluto para el botón */
+  
+}
+
+.boton-aceptar{
+  margin: 15px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #001F3F; /* Set the background color to green */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  border: 2px solid #001F3F;
+  border-radius: 30px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+
+} 
+
+.venta-input {
+  width: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.factura-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dato-factura {
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 80%;
+  margin: 20px;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 25px;
+  font-size: 16px;
+  border: 2px solid #434242;
+}
+
+.registro-ingreso{
+  height: 600px;
+  width: 1300px;
+}
+
+.registro-venta{
+  height: 700px;
+  width: 1300px;
+}
+
+.ingresar-cliente{
+  height: 250px;
+  width: 1300px;
+}
+
+.panel-cliente{
+  height: 500px;
+  width: 1300px;
+}
+
+.agregar-cliente-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.input-agregar-cliente{
+  font-size: 25px;
+  font-weight: bold;
+  width: 80%;
+  margin: 20px;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 25px;
+  font-size: 16px;
+  border: 2px solid #434242;
+}
+
+.empleado-panel{
+  width: 350px;
+  height:800px;
+}
+
+.boton-compraventa{
+  margin: 15px;
+  background-color: #001F3F; /* Set the background color to green */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  border: 2px solid #001F3F;
+  border-radius: 30px; /* Add rounded corners */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+  width: 200px;
+
+}
+.busqueda{
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  margin: 15px;
+  width: 30%; /* Set the width as needed */
+  height: 55px;
+  padding: 15px; /* Adjust the padding as needed */
+  border-radius: 35px;
+  font-size: 25px;
+
+  border: 2px solid #001F3F;
+}
+
+.boton-panel{
+  color: #7FDBFF;
+  margin: 15px;
+  background-color: #001F3F; /* Set the background color to green */
+  color: #7FDBFF; /* Set the text color to white */
+  font-weight: bold;
+  border: 2px solid #001F3F;
+  border-radius: 30px; /* Add rounded corners */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+
+} 
+.historial-muestras{
+  
+  width: 1300px;
+  height:700px;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #001F3F;
+
+}
+.header-text{
+  color: #7FDBFF;
+  justify-content: space-between;
+}
+
+.container {
+  text-align: right; /* Alinea el texto a la derecha en el contenedor */
+}
+nav a:hover{
+  font-weight: bold;
+  color: #7FDBFF;
+}
+.nav-path{
+
+  font-weight: bold;
+  font-size: 23px;
+
+  margin: 30px;
+  color: #7FDBFF;
+  text-decoration: none;
+
+}
+
+.nav-path-black{
+
+  font-weight: bold;
+  font-size: 23px;
+
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-mark{
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 30px;
+  color: #7FDBFF;
+  text-decoration: none;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.center-text {
+  text-align: center;
+}
+.rounded-corner {
+  border-radius: 50px; /* Adjust the value to control the roundness of the corners */
+  
+}
+
+.letrero {
+  border-radius: 50px; /* Adjust the value to control the roundness of the corners */
+  width: 50%;
+  background-color: #001F3F;
+}
+
+.rounded-corner2 {
+  border-radius: 15px; /* Adjust the value to control the roundness of the corners */
+  width: 400px; /* Set the width to your desired size (e.g., 300 pixels) */
+  margin: 50px;
+}
+
+.signup-element {
+  border-radius: 15px; /* Adjust the value to control the roundness of the corners */
+  width: 400px; /* Set the width to your desired size (e.g., 300 pixels) */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.login-div {
+  align-items: center;
+  width: 500px; /* Set the width to your desired size (e.g., 300 pixels) */
+  height: 700px; /* Set the height to your desired size (e.g., 200 pixels) */
+}
+
+.boton-log{
+  margin: 25px;
+  background-color: #001F3F; /* Set the background color to green */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  border: 2px solid #001F3F;
+  border-radius: 30px; /* Add rounded corners */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+}
+
+.boton-scan{
+  background-color: #001F3F; /* Set the background color to green */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold;
+  width: 400px;
+  border: 2px solid #001F3F;
+  border-radius: 15px; /* Add rounded corners */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 20px; /* Set the font size to your preference */
+}
+.input-design {
+
+  width: 100%; /* Set the width as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 15px;
+  font-size: 16px;
+  border: 2px solid #649C66;
+}
+
+.centered-bold-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bold-text {
+  color: #7FDBFF;
+  font-weight: bold;
+}
+
+.margen{
+  margin: 25px;
+}
+.chage-login-singin{
+  margin-left: 75px;
+  text-decoration: none;
+  color: black;
+}
+
+.bg-green {
+  background-color: #001F3F;
+}
+
+.bg-gray {
+  background-color: #A4BEE5;
+}
